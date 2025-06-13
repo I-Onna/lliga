@@ -1,0 +1,11 @@
+# Fitxers de Python
+*.pyc
+__pycache__/
+/env/
+/venv/
+#/media/*
+#/static/*
+.env
+#db.sqlite3
+.coverage
+
