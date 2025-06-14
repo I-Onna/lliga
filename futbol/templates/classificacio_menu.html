@@ -1,0 +1,7 @@
+Tria la lliga que vols visualitzar
+
+<ul>
+    {% for lliga in lligues %}
+    <li><a href="/classificacio/{{lliga.id}}/">{{lliga}}</a></li>
+    {% endfor %}
+</ul>
